@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register Page</title>
+</head>
+<body bgcolor="lightblue">
+	<fieldset>
+		<legend>Register Form</legend>
+	<table  border=1 align="center"  cellpadding="0px" cellspacing="0px" height="450px" bgcolor="lightgreen" bordercolor="black">
+		
+		<form align="center" action="login.html" target="_blank">
+		<tr>
+			<td><label for="FirstName"><h3>FirstName:</h3></label></td>
+			<td><input type="text" id="FirstName" required autofocus placeholder="FirstName"></td>
+		</tr>
+		<tr>
+			<td><label for="LastName"><h3>LastName:</h3></label></td>
+			<td><input type="text" id="Last_Name" placeholder="LastName"></td>
+		</tr>
+		<tr>
+			<td><label for="Email"><h3>Email:</h3></label></td>
+			<td><input type="email" id="Email id" required placeholder="Email"></td>
+		</tr>
+		<tr>
+			<td><label for="Age"><h3>Age:</h3></label></td>
+			<td><input type="number" id="Age" required placeholder="Age"></td>
+		</tr>
+		<tr>
+			<td><label for="Mobile Number"><h3>Mobile:</h3></label></td>
+			<td><input type="number" id="Mobile Number" placeholder="Mobile Number"></td>
+		</tr>
+		<tr>
+			<td>
+				<label><h3>Gender:</h3></label>
+			</td>
+			<td>
+				<input type="radio" name="Gender" id="male" value="male">
+				<label for="male">Male</label>
+				<br>
+				<input type="radio" name="Gender" id="female" value="female">
+				<label for="female">Female</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label><h3>Hobbies:</h3></label>
+			</td>
+			<td>
+				<input type="checkbox" name="Hobbies" id="playing" value="playing">
+				<label for="playing">Playing</label>
+				<br>
+				<input type="checkbox" name="Hobbies" id="eating" value="eating">
+				<label for="eating">Eating</label>
+				<br>
+				<input type="checkbox" name="Hobbies" id="sleeping" value="sleeping">
+				<label for="sleeping">Sleeping</label>
+			</td>
+		</tr>
+		<tr>
+			<td><label for="password"><h3>Password:</h3></label></td>
+			<td><input type="password" id="password" placeholder="password"></td>
+		</tr>
+		<tr>
+			<td><label for="password"><h3>Conform Password:</h3></label></td>
+			<td><input type="password" id="password" placeholder="Conform password"></td>
+		</tr>
+		<tr>
+			<td>
+				<label>Select State:</label>
+			</td>
+			<td>
+				<select>
+					<option value="Telangana">TG</option>
+					<option value="Andhra Pradesh">AP</option>
+					<option value="TamilNadu">TN</option>
+					<option value="Karnataka">KN</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label><h3>Description:</h3></label>
+			</td>
+			<td>
+				<textarea placeholder="Enter Few Words...."></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label><h3>Fav Fruit:</h3></label>
+			</td>
+			<td>
+				<input type="text" id="favfruit" list="favfruit" name="">
+				<datalist><option value="apple">
+					<option value="mango">
+						<option value="cherry"></datalist>
+				
+			</td>
+		</tr>
+		<tr>
+			<td  align="center"><button value="submit"><h4>Submit Form</h4></button></td>
+			<td align="center"><input type="reset"></td>
+		</tr>
+		
+		
+		
+	</form>
+
+	</table>
+
+
+</body>
+</html>
